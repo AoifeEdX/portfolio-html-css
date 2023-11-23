@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AoifeEdX's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    /> <!--The cloudflare.com link is for the icons in the footer-->
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1>Aoife<span>EdX</span></h1>
+      </div>
+
+			<nav>
+				<label id="hamburger" for="toggle">&#9776;</label><!--Hamburger menu icon for phone screens-->
+				<input type="checkbox" id="toggle" />
+				<div class="menu">
+					<a href="#about">About</a>
+					<a href="#work">Work</a>
+					<a href="#contact">Contact</a>
+					<a href="./assets/images/goat-blep.png" target="_blank">Résumé</a><!--Placeholder as I haven't made a new CV as of this module.-->
+				</div>
+			</nav>
+
+    </header>
+
+    <section id="hero">
+      <div class="image-wrapper">
+        <img
+          id="image-main"
+          src="./assets/images/profile.png"
+          alt="A line-drawing of a face."
+        />
+        <img
+          id="image-hover"
+          src="./assets/images/meanwhile.png"
+          alt="A line-drawing of two hands."
+        />
+      </div>
+      <div class="quote">
+        <blockquote>
+          <p id="quote-text">Welcome to my <span>portfolio</span>.</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="subsection">
+        <h2>About</h2>
+      </div>
+      <div class="about-wrapper">
+        <p>
+          <span>Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident.
+        </p>
+        <p>
+          <span>Ed ut perspiciatis</span> unde omnis iste natus error sit
+          voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+          ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt.
+        </p><!--Placeholder text.-->
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="subsection">
+        <h2>Work</h2>
+      </div>
+      <div class="projects-grid-wrapper">
+        <div class="projects-grid">
+          <a
+            href="https://aoifeedx.github.io/horiseon-code-refactor/"
+            target="_blank"
+            class="project"
+            id="project-1"
+            aria-label="Image of Horiseon website homepage."
+          >
+            <div class="project-label">
+              <h3>Horiseon</h3>
+              <p>HTML & CSS</p>
+            </div>
+          </a>
+					<!--Projects #2 through #5 are placeholders.-->
+          <a
+            href="https://getbootstrap.com/"
+            target="_blank"
+            class="project"
+            id="project-2"
+            aria-label="Image of Bootstrap website homepage."
+          >
+            <div class="project-label">
+              <h3>Project #2</h3>
+              <p>Bootstrap</p>
+            </div>
+          </a>
+          <a
+            href="https://www.javascript.com/"
+            target="_blank"
+            class="project"
+            id="project-3"
+            aria-label="Image of JavaScript website homepage."
+          >
+            <div class="project-label">
+              <h3>Project #3</h3>
+              <p>JavaScript</p>
+            </div>
+          </a>
+          <a
+            href="https://www.redhat.com/en/topics/api"
+            target="_blank"
+            class="project"
+            id="project-4"
+            aria-label="Image of Red Hat website page on the topic of APIs."
+          >
+            <div class="project-label">
+              <h3>Project #4</h3>
+              <p>APIs</p>
+            </div>
+          </a>
+          <a
+            href="https://react.dev/"
+            target="_blank"
+            class="project"
+            id="project-5"
+            aria-label="Image of React website homepage."
+          >
+            <div class="project-label">
+              <h3>Project #5</h3>
+              <p>React</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="subsection">
+        <h2>Contact</h2>
+      </div>
+      <div class="contact-wrapper">
+        <div id="contact-list">
+          <ul>
+            <li>
+              <a href="https://github.com/AoifeEdX" target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/aoifenidhonnacha/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i> LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="mailto:aoife.z.dunphy@gmail.com"
+                ><i class="fas fa-envelope"></i> Email</a
+              >
+            </li>
+            <li>
+              <a href="tel:+3531234567"
+                ><i class="fas fa-phone"></i> +353 1234 567</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>			
+    </footer>
+
+  </body>
+</html>
