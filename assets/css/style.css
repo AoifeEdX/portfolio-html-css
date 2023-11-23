@@ -35,7 +35,7 @@ header {
   background-color: var(--light);
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Add this line to vertically center the content */
+  align-items: center;
   padding: 20px;
 }
 
@@ -74,7 +74,7 @@ label {
   display: none;
 }
 
-/* #hero Section Styles */
+/* Hero Section Styles */
 #hero {
   height: 600px;
   display: flex;
@@ -133,7 +133,7 @@ label {
   color: var(--accent);
 }
 
-/* subsection Section Styles */
+/* Subsection Styles */
 .subsection {
   border-right: 7.5px solid var(--accent);
   min-height: 100%;
@@ -202,7 +202,7 @@ label {
   text-decoration: none;
 }
 
-/* Projects Grid Styles */
+/* Project Styles */
 .projects-grid-wrapper {
   width: 80%;
   display: flex;
@@ -220,7 +220,6 @@ label {
   margin-right: auto;
 }
 
-/* Project Label Styles */
 .project-label {
   background-color: rgba(255, 255, 255, 0.8);
   color: var(--dark);
@@ -243,7 +242,6 @@ label {
   transition: transform 0.3s ease-in-out;
 }
 
-/* Project Styles */
 .project {
   display: flex;
   justify-content: flex-end;
@@ -358,7 +356,7 @@ footer ul li a:hover {
   color: var(--accent);
 }
 
-/* Responsive Styles */
+/* Responsive Styles for Tablet & Mobile */
 @media screen and (max-width: 1200px) {
   #hero .quote #quote-text {
     font-size: 35px;
