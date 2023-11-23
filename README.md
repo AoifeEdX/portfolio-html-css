@@ -20,8 +20,8 @@ This portfolio is used as a starting point to represent my work, which I will ad
 
 ### Links
 
-* [Deployed website](https://aoifeedx.github.io/02-portfolio-html-css/)
-* [GitHub code repository](https://github.com/AoifeEdX/02-portfolio-html-css)
+* [Deployed website](https://aoifeedx.github.io/portfolio-html-css/)
+* [GitHub code repository](https://github.com/AoifeEdX/portfolio-html-css)
 
 ## Credits
 
