@@ -25,7 +25,7 @@ This portfolio is used as a starting point to represent my work, which I will ad
 
 ## Credits
 
-Starter code and instructions provided by edX (Skills Boot Camp in Front-End Web Development). Hero images by artist Shilat. Footer icons by Font Awesome
+Starter code and instructions provided by edX (Skills Boot Camp in Front-End Web Development). Hero images by artist Shilat. Footer icons by Font Awesome.
 
 ### Resources
 
